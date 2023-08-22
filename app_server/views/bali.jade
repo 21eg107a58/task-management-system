@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
+    title Bali Info - Your Travel Blog
+  body(style="background-color:powderblue;")
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      a.navbar-brand(href='/Travel Blog') Travel Blog
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item.active
+            a.nav-link(href='/home')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='/destination') Destinations
+          li.nav-item
+            a.nav-link(href='/blog') Blog
+          li.nav-item
+            a.nav-link(href='/about') About
+          li.nav-item
+            a.nav-link(href='/contact') Contact
+          li.nav-item 
+            a.nav-link(href='/login') Login
+    // Your content goes here
+    .container.mt-5
+      .row
+        .col-md-8.offset-md-2
+          h1(style="color: #333;") Explore Bali, Indonesia
+          p(style="color: #666;") Bali, known as the Island of the Gods, is a tropical paradise that offers breathtaking landscapes, rich culture, and vibrant nightlife. From stunning beaches to ancient temples, Bali has something for every type of traveler.
+          h2(style="color: #333;") Natural Beauty
+          p(style="color: #666;") Bali's beauty is unrivaled, with lush rice terraces, pristine beaches, and volcanic landscapes. Visit the iconic Tegallalang Rice Terraces, relax on the golden sands of Kuta Beach, and hike up Mount Batur to witness a stunning sunrise.
+          h2(style="color: #333;") Spiritual Heritage
+          p(style="color: #666;") Bali is renowned for its spiritual and cultural significance. Explore ancient temples like Uluwatu Temple and Tanah Lot, attend a traditional Balinese dance performance, and experience the serenity of water temples like Tirta Empul.
+          h2(style="color: #333;") Cuisine and Local Delights
+          p(style="color: #666;") Indulge in Balinese cuisine with dishes like nasi goreng (fried rice), babi guling (roast suckling pig), and lawar (mixed vegetables with minced meat). Visit local markets and try tropical fruits, fresh seafood, and Balinese-style satay.
+          h2(style="color: #333;") Arts and Crafts
+          p(style="color: #666;") Bali's artistic heritage is evident in its traditional crafts. Explore Ubud's art scene, known for its painting galleries and artisan workshops. Discover intricate wood carvings, batik textiles, and silver jewelry made by skilled Balinese artisans.
+          h2(style="color: #333;") Wellness and Relaxation
+          p(style="color: #666;") Bali is a popular destination for wellness and relaxation. Unwind with traditional spa treatments, practice yoga in serene settings, and rejuvenate your mind, body, and soul amidst the tranquil surroundings.
+    
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')

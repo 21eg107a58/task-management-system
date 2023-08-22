@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
+    title Taj Mahal Info - Your Travel Blog
+  body(style="background-color:powderblue;")
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      a.navbar-brand(href='/Travel Blog') Travel Blog
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarNav.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item.active
+            a.nav-link(href='/home')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='/destination') Destinations
+          li.nav-item
+            a.nav-link(href='/blog') Blog
+          li.nav-item
+            a.nav-link(href='/about') About
+          li.nav-item
+            a.nav-link(href='/contact') Contact
+          li.nav-item 
+            a.nav-link(href='/login') Login
+    // Your content goes here
+    .container.mt-5
+      .row
+        .col-md-8.offset-md-2
+          h1(style="color: #333;") Discover the Taj Mahal, India
+          p(style="color: #666;") The Taj Mahal, a UNESCO World Heritage Site, is an iconic masterpiece of Mughal architecture located in Agra, India. It is a symbol of love and devotion, built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal.
+          h2(style="color: #333;") Architectural Marvel
+          p(style="color: #666;") The Taj Mahal's stunning white marble structure is known for its intricate craftsmanship and symmetrical design. It features delicate carvings, intricate inlay work with precious stones, and ornate calligraphy from the Quran.
+          h2(style="color: #333;") Symbol of Love
+          p(style="color: #666;") The Taj Mahal's creation is a testament to the enduring love between Shah Jahan and Mumtaz Mahal. The mausoleum's ethereal beauty and the love story behind it have made it a global symbol of romance and devotion.
+          h2(style="color: #333;") Gardens and Reflections
+          p(style="color: #666;") The Taj Mahal is set within beautifully landscaped gardens that enhance its grandeur. The famous reflecting pool in front of the monument creates a stunning illusion, where the Taj Mahal appears to float on water during certain times of the day.
+          h2(style="color: #333;") Cultural Significance
+          p(style="color: #666;") The Taj Mahal represents the pinnacle of Mughal architecture and showcases a blend of Persian, Indian, and Islamic styles. It is a place of pilgrimage and attracts millions of visitors who come to admire its architectural brilliance and historical significance.
+          h2(style="color: #333;") Visiting the Taj Mahal
+          p(style="color: #666;") Visitors can experience the Taj Mahal's beauty up close, exploring its interiors adorned with intricate marble work and calligraphy. Sunrise and sunset views are particularly breathtaking, casting a warm glow on the monument's gleaming white facade.
+    
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')
