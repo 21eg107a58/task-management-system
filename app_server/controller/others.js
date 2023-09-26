@@ -23,4 +23,7 @@ module.exports.bali=function(req,res){
 module.exports.india=function(req,res){
     res.render('india');
 };
+module.exports.create=function(req,res){
+    res.render('create');
+}
 

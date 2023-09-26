@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require('express');
 var router = express.Router();
 
@@ -15,7 +16,7 @@ router.get('/about',ctrlothers.about);
 
 
 router.get('/paris',ctrlothers.paris);
-
+router.get('/create',ctrlothers.create);
 router.get('/contact',ctrlothers.contact);
 router.get('/bali',ctrlothers.bali);
 router.get('/india',ctrlothers.india);
