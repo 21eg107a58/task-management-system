@@ -1,5 +1,5 @@
 /* GET 'destinations' page */
-module.exports.destinationList = function(req, res) {
+module.exports.destination = function(req, res) {
     res.render('destination-list', {
         title: 'Travel Blog - Explore Destinations',
         pageHeader: {
